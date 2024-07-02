@@ -3,40 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mitali's Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #f8f9fa;
-            padding: 20px;
-        }
-        section {
-            margin: 20px;
-        }
-    </style>
+    <title>Mitali Purohit - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Mitali's Portfolio</h1>
+        <div class="container">
+            <h1>Mitali Purohit</h1>
+            <p>Software Engineer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio! I am Mitali, a passionate developer.</p>
-    </section>
-    <section>
-        <h2>Projects</h2>
-        <p>Project 1: Description</p>
-        <p>Project 2: Description</p>
-        <!-- Add more projects as needed -->
-    </section>
-    <section>
-        <h2>Contact</h2>
-        <p>Email: mitali@example.com</p>
-    </section>
+    <main>
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <p>Full-stack engineer with over 9 years of experience in delivering innovative software solutions. Proficient in various technologies, from backend to frontend, and committed to driving web development excellence.</p>
+        </section>
+        <section id="education" class="container">
+            <h2>Education</h2>
+            <p><strong>Major in Computer Science with Minor in Information Systems</strong>, California State University, Los Angeles, CA (August 2024)</p>
+            <p><strong>Bachelor of Engineering in Computer Science</strong>, Saffrony Institute of Technology, India (June 2014)</p>
+        </section>
+        <section id="experience" class="container">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>Technical Lead | Senior Software Engineer, Knovator Technologies Pvt. Ltd, India (Feb 2022 – Aug 2022)</h3>
+                <ul>
+                    <li>Deployed applications within Docker containers, leveraging container orchestration tools like Kubernetes.</li>
+                    <li>Led the development of a high-frequency trading system using C++ for low-latency processing and execution.</li>
+                    <li>Implemented continuous integration and deployment pipelines using tools like Jenkins or GitLab CI/CD for automated Docker image builds and Kubernetes deployments.</li>
+                    <li>Led the creation and configuration of cloud-based applications, including IaaS, PaaS, and SaaS solutions.</li>
+                    <li>Implemented and unit tested software applications for the collections core system within a real-time environment using C/C++ and Python.</li>
+                    <li>Implemented cutting-edge machine learning algorithms, including CNNs and RNNs, to optimize sensor data fusion, resulting in a robust navigation system tailored for immersive environments.</li>
+                    <li>Contributed to Agile planning processes, collaborating with product partners and team members to ensure alignment with project goals.</li>
+                </ul>
+            </div>
+            <!-- Add other job experiences similarly -->
+        </section>
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Restaurant Management System (C#)</h3>
+                <p>Optimizes operations by automating tasks like order management and inventory tracking. Its user-friendly interface enhances communication and boosts efficiency for staff, ultimately improving customer satisfaction.</p>
+            </div>
+            <div class="project">
+                <h3>Rossman Sales Prediction (Python)</h3>
+                <p>Employed Python in a Data Science course project to predict Rossmann store sales with 95%+ accuracy, enhancing inventory management and revenue.</p>
+            </div>
+            <!-- Add other projects similarly -->
+        </section>
+        <section id="skills" class="container">
+            <h2>Technical Skills</h2>
+            <p><strong>Programming Languages:</strong> C, C++, Shell scripting (e.g., Bash), TypeScript, Java, Python, Ruby, Perl, JavaScript, GoLang, PHP, C#, Kotlin, Haskell, Scala</p>
+            <p><strong>AI Tools and Techniques:</strong> TensorFlow, PyTorch, Spark Mlib, ONNX, Sensor Fusion, Digital Signal Processing (DSP), Visual Inertial Odometry (VIO), Inertial Sensors, Virtual Reality (VR), Augmented Reality (AR), CNN, RNN, Neural Network Architecture, Clustering Algorithms, VIO, SLAM</p>
+            <p><strong>Web Development:</strong> HTML, CSS, Bootstrap, React.js, Vue.js, Ajax, Express.js, Angular, GraphQL</p>
+            <p><strong>Cloud Services:</strong> AWS (EC2, S3, Lambda, RDS, DynamoDB), GCP, Kubernetes, Docker for containerization</p>
+            <p><strong>Operating Systems:</strong> Linux, Windows, Hadoop, Unix (Basic), Hive, Android</p>
+            <p><strong>Mobile Development:</strong> Android, iOS, React Native, Flutter, PWAs, AMP</p>
+            <p><strong>Frameworks and Libraries:</strong> Node.js, Express.js, Spring Boot, Flask, Django, React</p>
+            <p><strong>Middleware Technologies/APIs:</strong> JMS, JNDI, JAX-RPC, JSON, RESTful APIs</p>
+            <p><strong>Databases:</strong> MySQL, Oracle, MariaDB, MongoDB, NoSQL</p>
+            <p><strong>Version Control:</strong> Git, Bitbucket, Helix Core, CVS</p>
+            <p><strong>Project Management:</strong> SVN, Jira, Asana, Trello; Methodologies: Agile, Scrum</p>
+            <p><strong>CMS:</strong> WordPress, Shopify, Magento, Moodle; CRM: HubSpot, Salesforce</p>
+            <p><strong>Other:</strong> Jenkins, Microservices, FotoWare, Serverless architecture, Managed Services</p>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <p>Los Angeles, CA 90032, United States</p>
+            <p>+1 213 6918101</p>
+            <p><a href="mailto:mitalilpurohit@gmail.com">mitalilpurohit@gmail.com</a></p>
+            <p><a href="https://linkedin.com/in/mitali" target="_blank">LinkedIn</a> | <a href="https://github.com/mitalip001" target="_blank">GitHub</a></p>
+            <p><a href="resume.pdf" download>Download Resume</a></p>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mitali Purohit. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
